@@ -7,6 +7,7 @@
 int func(int arg)
 {
     std::cout << arg << "\n";
+    return arg + 1;
 }
 
 
