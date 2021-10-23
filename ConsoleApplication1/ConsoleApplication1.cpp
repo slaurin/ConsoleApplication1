@@ -9,6 +9,8 @@ int main()
     std::cout << "I'm now in github\n";
 
     MySuperClass su("Zachary");
+
+    std::cout << su.getName() << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
