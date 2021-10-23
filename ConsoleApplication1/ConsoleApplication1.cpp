@@ -2,11 +2,13 @@
 //
 
 #include <iostream>
-
+#include "super.h"
 int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "I'm now in github\n";
+
+    MySuperClass su("Zachary");
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
