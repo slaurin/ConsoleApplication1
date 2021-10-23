@@ -16,6 +16,7 @@ int main()
     std::cout << "I'm now in github\n";
     func(1);
     func(2);
+    func(3);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
