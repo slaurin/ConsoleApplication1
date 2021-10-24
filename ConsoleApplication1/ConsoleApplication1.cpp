@@ -2,14 +2,25 @@
 //
 
 #include <iostream>
+
 #include "super.h"
+
+int func(int arg)
+{
+    std::cout << arg << "\n";
+    return arg + 1;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "I'm now in github\n";
 
-    MySuperClass su("Zachary");
+    func(1);
+    func(2);
+    func(3);
 
+    MySuperClass su("Zachary");
     std::cout << su.getName() << "\n";
 }
 
