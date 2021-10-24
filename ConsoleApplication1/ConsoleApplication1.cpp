@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+#include "super.h"
 
 int func(int arg)
 {
@@ -10,14 +11,17 @@ int func(int arg)
     return arg + 1;
 }
 
-
 int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "I'm now in github\n";
+
     func(1);
     func(2);
     func(3);
+
+    MySuperClass su("Zachary");
+    std::cout << su.getName() << "\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
